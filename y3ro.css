@@ -1,0 +1,44 @@
+html {
+	height: 100%;
+	font-family: monospace;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+}
+
+div#y3ro {
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+	text-align: center;
+	height: 100%;
+}
+
+div#y3ro div.title {
+	font-size: xxx-large;
+	margin-bottom: 2rem;
+}
+
+div#y3ro div.margin-bottom {
+	margin-bottom: 2rem;
+}
+
+div#y3ro div.subtitle {
+	font-size: xx-large;
+	margin-bottom: .5rem;
+}
+
+div#y3ro ul.tech-list {
+	font-size: x-large;
+	margin-bottom: 2rem;
+	list-style-type: none;
+	padding: 0;
+}
+
+
+
+div#y3ro div.contact {
+	font-size: large;
+}
