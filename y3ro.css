@@ -11,9 +11,9 @@ body {
 div#y3ro {
 	display: flex;
 	flex-direction: column;
-	place-content: center;
 	text-align: center;
-	height: 100%;
+	padding-block: 3rem;
+	padding-inline: 1.5rem;
 }
 
 div#y3ro div.title {
@@ -30,6 +30,22 @@ div#y3ro div.subtitle {
 	margin-bottom: .5rem;
 }
 
+div#y3ro div.subsubtitle {
+	font-size: x-large;
+	margin-bottom: .5rem;
+}
+
+.brief {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.brief > p {
+	font-size: x-large;
+	max-width: 700px;
+}
+
 div#y3ro ul.tech-list {
 	font-size: x-large;
 	margin-bottom: 2rem;
@@ -37,8 +53,17 @@ div#y3ro ul.tech-list {
 	padding: 0;
 }
 
+li.list-title {
+	text-decoration: underline;
+}
+
 div#y3ro div.contact {
 	font-size: large;
+}
+
+.clarification {
+	font-size: medium;
+	font-style: italic;
 }
 
 @media (prefers-color-scheme: dark) {
