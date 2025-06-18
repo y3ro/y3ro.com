@@ -87,6 +87,16 @@ body {
 	}
 }
 
+.contact .clarification {
+	display: block;
+}
+
+@media (max-width: 600px) {
+	.contact .clarification {
+		display: none;
+	}
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #333;
