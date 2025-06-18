@@ -16,22 +16,22 @@ div#y3ro {
 	padding-inline: 1.5rem;
 }
 
-div#y3ro div.title {
-	font-size: xxx-large;
+div#y3ro .title {
+	font-size: xx-large;
 	margin-bottom: 2rem;
 }
 
 div#y3ro div.margin-bottom {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
 }
 
-div#y3ro div.subtitle {
-	font-size: xx-large;
+div#y3ro .subtitle {
+	font-size: x-large;
 	margin-bottom: .5rem;
 }
 
-div#y3ro div.subsubtitle {
-	font-size: x-large;
+div#y3ro .subsubtitle {
+	font-size: large;
 	margin-bottom: .5rem;
 }
 
@@ -42,12 +42,12 @@ div#y3ro div.subsubtitle {
 }
 
 .brief > p {
-	font-size: x-large;
+	font-size: large;
 	max-width: 700px;
 }
 
 div#y3ro ul.tech-list {
-	font-size: x-large;
+	font-size: large;
 	margin-bottom: 2rem;
 	list-style-type: none;
 	padding: 0;
@@ -58,11 +58,11 @@ li.list-title {
 }
 
 div#y3ro div.contact {
-	font-size: large;
+	font-size: medium;
 }
 
 .clarification {
-	font-size: medium;
+	font-size: small;
 	font-style: italic;
 }
 
