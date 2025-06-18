@@ -29,7 +29,7 @@ div#y3ro {
 
 div#y3ro .title {
 	font-size: xx-large;
-	margin-bottom: 2rem;
+	margin-block: 0.1rem;
 }
 
 div#y3ro div.margin-bottom {
@@ -117,4 +117,49 @@ div#y3ro div.contact {
   a, a:visited {
     color: darkblue;
   } 
+}
+
+.fade-in-right {
+	display: inline-flex;
+	padding-left: 20px;
+	opacity: 0;
+	transform: translateX(-20px);
+	animation: fadeInRight 1s ease-out forwards;
+}
+
+@keyframes fadeInRight {
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.fade-in-up {
+	display: inline-flex;
+	padding-bottom: 20px;
+	opacity: 0;
+	transform: translateY(20px);
+	animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fade-in-left {
+	display: inline-flex;
+	padding-right: 20px;
+	opacity: 0;
+	transform: translateX(20px);
+	animation: fadeInLeft 1s ease-out forwards;
+}
+
+@keyframes fadeInLeft {
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
